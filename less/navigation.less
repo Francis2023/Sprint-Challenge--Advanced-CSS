@@ -1,1 +1,35 @@
 // Navigation code here
+
+.navigation{
+   .display-flex();
+   background-color: @nav-bg;
+   border: 1px block @nav-border;
+   padding: 10px;
+   .title{
+       font-size: 4.3rem;
+       padding-bottom: 17px;
+
+       @media @phone{
+           font-size: 4rem;
+       }
+
+   }
+   .navi{
+       font-size: 1.4rem;
+       width:43%;
+       display:flex;
+       justify-content: space-between;
+       text-decoration: none;
+       padding-bottom: 1%;
+
+       @media @phone{
+           font-size: 1.4rem;
+           width:80%;
+       }
+      
+   }
+
+
+
+
+}
