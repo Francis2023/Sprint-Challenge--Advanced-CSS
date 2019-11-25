@@ -1,1 +1,20 @@
 // Mixins Here
+
+.display-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curve-img{
+    border-radius: 10px;
+}
+
+.signUp-button(@width,@justify,@height,@radius){
+    display: flex;
+    background: @btn-bg-color;
+    color: white;
+    width: @width;
+    height: @height;
+    justify-content: @justify;
+    border-radius: @radius;
+}
